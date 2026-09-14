@@ -141,8 +141,7 @@ namespace SistemaBiblioteca
 
         private void btnEditoriales_Click(object sender, EventArgs e)
         {
-            // PENDIENTE (bloque 5): AbrirFormulario(new FrmEditoriales(), btnEditoriales, "Editoriales");
-            ModuloPendiente("Editoriales");
+            AbrirFormulario(new FrmEditoriales(), btnEditoriales, "Editoriales");
         }
 
         private void btnPrestamos_Click(object sender, EventArgs e)

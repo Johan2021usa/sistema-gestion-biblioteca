@@ -1,0 +1,57 @@
+# === Build .NET ===
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+# === Archivos de usuario de Visual Studio ===
+.vs/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# === Resultados de compilación / paquetes ===
+*.dll
+*.exe
+*.pdb
+*.cache
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# === NuGet ===
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+*.nuget.props
+*.nuget.targets
+
+# === SQL Server (archivos locales de datos, no el script) ===
+*.mdf
+*.ldf
+*.ndf
+
+# === Sistema operativo ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# === Otros ===
+*.log
+*.tmp
+*.bak
+
+# === Archivos de trabajo / andamiaje (no forman parte del entregable) ===
+SPEC.md
+CLAUDE.md

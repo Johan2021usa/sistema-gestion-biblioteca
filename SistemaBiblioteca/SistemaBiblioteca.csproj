@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Se desactivan los tipos de referencia anulables: el proyecto usa el estilo
+         clasico de WinForms (object sender, EventArgs e) y activarlos solo generaria
+         advertencias de compilacion que no aportan nada al ejercicio. -->
+    <Nullable>disable</Nullable>
+    <RootNamespace>SistemaBiblioteca</RootNamespace>
+    <AssemblyName>SistemaBiblioteca</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Acceso a datos ADO.NET para SQL Server -->
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.3" />
+    <!-- Iconos para los botones del menu principal -->
+    <PackageReference Include="FontAwesome.Sharp" Version="6.6.0" />
+  </ItemGroup>
+
+</Project>

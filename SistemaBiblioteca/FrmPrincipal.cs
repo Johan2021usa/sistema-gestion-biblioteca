@@ -124,8 +124,7 @@ namespace SistemaBiblioteca
 
         private void btnLibros_Click(object sender, EventArgs e)
         {
-            // PENDIENTE (bloque 7): AbrirFormulario(new FrmLibros(), btnLibros, "Libros");
-            ModuloPendiente("Libros");
+            AbrirFormulario(new FrmLibros(), btnLibros, "Libros");
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)

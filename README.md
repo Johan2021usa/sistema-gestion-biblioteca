@@ -681,7 +681,7 @@ al compilar; no hay que instalarlos a mano.
 ### Paso 2 — Clonar el repositorio
 
 ```bash
-git clone [COMPLETAR: URL del repositorio]
+git clone https://github.com/Johan2021usa/sistema-gestion-biblioteca
 ```
 
 También puede descargarse el ZIP desde GitHub con **Code → Download ZIP** y descomprimirlo.
@@ -963,7 +963,7 @@ https://learn.microsoft.com/dotnet/api/system.windows.forms.datagridview
 
 ### Anexo A — Repositorio
 
-**URL del repositorio público:** `[COMPLETAR: URL del repositorio]`
+**URL del repositorio público:** `https://github.com/Johan2021usa/sistema-gestion-biblioteca`
 
 ![Repositorio en GitHub](docs/capturas/git_repo.png)
 

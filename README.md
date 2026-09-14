@@ -514,8 +514,7 @@ using (SqlCommand comando = new SqlCommand(sql, conexion))
 ├── Script_Biblioteca.sql        Script de creación de la base de datos
 ├── SistemaBiblioteca.sln        Solución de Visual Studio
 ├── docs/
-│   ├── capturas/                Capturas del sistema y evidencias de pruebas
-│   └── diagramas/               Diagramas exportados (los del README son Mermaid)
+│   └── capturas/                Capturas del sistema y evidencias de pruebas
 └── SistemaBiblioteca/
     ├── SistemaBiblioteca.csproj
     ├── Program.cs               Punto de entrada
@@ -530,6 +529,10 @@ using (SqlCommand comando = new SqlCommand(sql, conexion))
     ├── FrmPrestamos.cs
     └── FrmReportes.cs
 ```
+
+> Los diagramas de este documento (casos de uso, clases, entidad-relación y arquitectura)
+> están escritos en Mermaid dentro del propio README, de modo que GitHub los dibuja al
+> mostrar la página y no dependen de archivos de imagen externos.
 
 ### 9.4 Tecnologías
 
@@ -978,11 +981,20 @@ inserción de los datos de prueba y una consulta de verificación.
 
 ### Anexo C — Evidencia de commits
 
-El historial de commits documenta la construcción del sistema por bloques: base de datos,
-capa de acceso a datos, ventana principal, un commit por cada módulo, capturas y
-documentación.
+El repositorio cuenta con **14 commits** que documentan la construcción del sistema por
+bloques: configuración inicial, base de datos, capa de acceso a datos, ventana principal,
+un commit por cada módulo, capturas de las pruebas y documentación.
 
-![Historial de commits](docs/capturas/git_commits.png)
+Por la extensión del historial, la evidencia se presenta en dos capturas consecutivas de
+la misma página.
+
+**Commits más recientes** (documentación, reportes y préstamos):
+
+![Historial de commits, parte superior](docs/capturas/git_commits2.png)
+
+**Commits iniciales** (módulos, ventana principal, capa de datos y script SQL):
+
+![Historial de commits, parte inferior](docs/capturas/git_commits.png)
 
 ### Anexo D — README renderizado
 

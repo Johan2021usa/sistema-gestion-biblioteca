@@ -100,19 +100,6 @@ namespace SistemaBiblioteca
             }
         }
 
-        /// <summary>
-        /// Aviso temporal para los modulos que todavia no se han construido.
-        /// Cada una de estas llamadas se reemplaza por su AbrirFormulario(...) real
-        /// cuando se termine el bloque correspondiente.
-        /// </summary>
-        private void ModuloPendiente(string nombreModulo)
-        {
-            MessageBox.Show(
-                "El módulo de " + nombreModulo + " todavía no está construido." + Environment.NewLine +
-                "Se habilitará en el siguiente avance del proyecto.",
-                "Módulo en construcción", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
         // ====================================================================
         // EVENTOS DE LOS 8 BOTONES DEL MENU
         // ====================================================================
@@ -149,8 +136,7 @@ namespace SistemaBiblioteca
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
-            // PENDIENTE (bloque 9): AbrirFormulario(new FrmReportes(), btnReportes, "Reportes");
-            ModuloPendiente("Reportes");
+            AbrirFormulario(new FrmReportes(), btnReportes, "Reportes");
         }
 
         /// <summary>

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 namespace SistemaBiblioteca
@@ -14,8 +14,8 @@ namespace SistemaBiblioteca
             // Configura estilos visuales, DPI y fuente predeterminada de WinForms.
             ApplicationConfiguration.Initialize();
 
-            // Formulario de arranque. En el bloque 3 se cambiara por FrmPrincipal.
-            Application.Run(new FrmPruebaConexion());
+            // La aplicacion arranca en la ventana contenedora, que a su vez carga FrmInicio.
+            Application.Run(new FrmPrincipal());
         }
     }
 }

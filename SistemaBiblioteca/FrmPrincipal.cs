@@ -130,8 +130,7 @@ namespace SistemaBiblioteca
 
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
-            // PENDIENTE (bloque 6): AbrirFormulario(new FrmUsuarios(), btnUsuarios, "Usuarios");
-            ModuloPendiente("Usuarios");
+            AbrirFormulario(new FrmUsuarios(), btnUsuarios, "Usuarios");
         }
 
         private void btnAutores_Click(object sender, EventArgs e)

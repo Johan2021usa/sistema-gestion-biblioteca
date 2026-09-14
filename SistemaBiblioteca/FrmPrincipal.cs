@@ -136,8 +136,7 @@ namespace SistemaBiblioteca
 
         private void btnAutores_Click(object sender, EventArgs e)
         {
-            // PENDIENTE (bloque 4): AbrirFormulario(new FrmAutores(), btnAutores, "Autores");
-            ModuloPendiente("Autores");
+            AbrirFormulario(new FrmAutores(), btnAutores, "Autores");
         }
 
         private void btnEditoriales_Click(object sender, EventArgs e)
